@@ -2,6 +2,11 @@ import tokens from './tokens.json';
 import { createTheme } from '@shopify/restyle';
 
 const theme = createTheme({
+  spacing: {
+    s: tokens.Spacing.s,
+    m: tokens.Spacing.m,
+    l: tokens.Spacing.l
+  },
   colors: {
     green: tokens.FigmaColors.green,
     blue: tokens.FigmaColors.blue,
