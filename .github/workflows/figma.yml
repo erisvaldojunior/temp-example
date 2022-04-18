@@ -15,9 +15,6 @@ on:
         description: 'Restyle Theme'
         required: false
         default: 'Updated Restyle Theme from Figma'
-  push:
-    branches:
-      - "main"
 
 jobs:
   build-unix:
