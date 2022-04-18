@@ -5,7 +5,9 @@ const theme = createTheme({
   spacing: {
     s: tokens.Spacing.s,
     m: tokens.Spacing.m,
-    l: tokens.Spacing.l
+    l: tokens.Spacing.l,
+    xl: tokens.Spacing.xl,
+    xxl: tokens.Spacing.xxl
   },
   colors: {
     green: tokens.FigmaColors.green,
